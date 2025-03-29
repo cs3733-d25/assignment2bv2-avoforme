@@ -1,6 +1,7 @@
+import "./list1.css"
 function List1() {
     return (
-        <ol>
+        <ol className="list1">
             <p>My Favorite Minecraft Biomes</p>
             <li id="cherry">Cherry Grove</li>
             <li>Lush Caves</li>
