@@ -1,5 +1,6 @@
 import List1 from "./list1";
 import Table1 from "./table1";
+import Form1 from "./form1";
 import "./hobby1.css";
 function Hobby1() { 
   return (
@@ -14,6 +15,7 @@ function Hobby1() {
 
       <List1 />
       <Table1 />
+      <Form1 />
     </div>
   );
 }

@@ -39,3 +39,13 @@
     color: white;
 }
 
+
+.hobby1 form {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #010000;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
