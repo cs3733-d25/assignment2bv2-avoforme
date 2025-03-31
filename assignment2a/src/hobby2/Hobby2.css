@@ -1,0 +1,214 @@
+:root {
+	/* Color Palette */
+	--text-color: #212A31;
+	--dark-accent-color: #2E3944;
+	--accent-color: #1D7A9F;
+	--light-accent-color: #A0C3CB;
+	--background-color: #F7FFF8;
+}
+
+.hobby2 h1, h2, h3, h4, h5, h6 {
+	color: var(--accent-color);
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.hobby2 body {
+	margin: 0;
+	background-color: var(--background-color);
+	color: var(--text-color);
+	display: flex;
+  flex-direction: column;
+	min-height: 100vh;
+}
+
+.hobby2 main {
+	flex: 1;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.hobby2 div.hobby-body {
+	display: flex;
+  justify-content: center;
+}
+
+.hobby2 div.hobby-info {
+	float: left;
+}
+
+.hobby2 img.banner {
+	width: 640px;
+}
+
+.hobby2 p a.pageEM {
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--accent-color);
+}
+
+
+
+
+.hobby2 div.spacer {
+	height: 25px;
+	clear: both;
+}
+
+
+
+
+
+.hobby2 h3.horizontal-img-list-header {
+	text-decoration: underline;
+	padding-left: 10px;
+}
+
+.hobby2 ul.horizontal-img-list {
+	padding-left: 0px;
+}
+
+.hobby2 ul.horizontal-img-list li {
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	padding-right: 20px;
+}
+
+.hobby2 ul.horizontal-img-list li img {
+	width: 100px;
+	height: 100px;
+}
+
+.hobby2 #first-list-item {
+	color: var(--light-accent-color);
+}
+
+
+
+
+
+.hobby2 table, th, td {
+	border: 2px solid var(--dark-accent-color);
+	text-align: center;
+}
+
+.hobby2 .collapse {
+	border-collapse: collapse;
+}
+
+.hobby2 #pkm-cards tr td {
+	width: 200px;
+	height: 200px;
+}
+
+.hobby2 #pkm-cards td img {
+	height: 148.7px;
+	width: 106.7px;
+}
+
+
+
+
+
+.hobby2 #form-header {
+	text-align: center;
+}
+
+.hobby2 table#region-table {
+	width: 525px;
+}
+
+.hobby2 #region-table th {
+	width: 20%;
+	padding: 16px;
+}
+
+.hobby2 #region-table td {
+	width: 25%;
+	padding: 8px;
+}
+
+.hobby2 #region-table label {
+	margin: 0;
+	padding: 0;
+}
+
+.fire {
+	background-color: color-mix(in srgb, red, transparent 85%);
+}
+.water {
+	background-color: color-mix(in srgb, blue, transparent 85%);
+}
+.grass {
+	background-color: color-mix(in srgb, green, transparent 85%);
+}
+
+.hobby2 form {
+	float: left;
+	margin-left: 10%;
+	margin-top: 25px;
+	border-style: groove;
+	border-color: var(--dark-accent-color);
+	background: color-mix(in srgb, var(--dark-accent-color), transparent 85%);
+	padding: 2em;
+	padding-right: 0;
+	padding-top: 0;
+	max-height: fit-content;
+}
+
+.hobby2 fieldset {
+	float: left;
+	align-items: center;
+	width: fit-content;
+	padding-top: 0px;
+	border-style: solid;
+	border-color: var(--dark-accent-color);
+}
+
+.hobby2 label {
+	margin-top: 10px;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+label[for="favorite"], label[for="og-sets"], label[for="name"] {
+	font-weight: bold
+}
+
+.basic-pkm-form {
+	width: 250px;
+	resize: none;
+	overflow: hidden;
+	color: var(--text-color);
+	border-style: solid;
+	border-width: 2px;
+	border-color: var(--dark-accent-color);
+	background-color: var(--background-color);
+}
+
+input.basic-pkm-form {
+	height: 20px;
+}
+
+.hobby2 .center-img {
+	display: flex;
+  justify-content: center;
+	margin-top: 45px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.hobby2 #form-logo {
+	flex: left;
+	width: 75%;
+	height: auto;
+}
+
+select#og-sets, .hobby2 option {
+	border-style: solid;
+	border-width: 2px;
+	margin-left: 15px;
+	color: var(--text-color);
+	border-color: var(--dark-accent-color);
+	background-color: var(--background-color);
+}

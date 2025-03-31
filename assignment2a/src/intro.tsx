@@ -11,7 +11,7 @@ function Intro({ name1, name2 }: IntroProps) {
             </p>
 
             <p>
-                {name2}     
+                My name is {name2}, and I like to collect Pokemon TCG.     
             </p>
         </div>
     );
