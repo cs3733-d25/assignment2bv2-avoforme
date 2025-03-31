@@ -11,7 +11,7 @@ function App() {
      <Title />
      <Intro name1="Thanh Ho" name2="Cole Golding" />
      <Hobby1 />
-		 <Hobby2 />
+        <Hobby2 />
     </>
   )
 }

@@ -1,5 +1,5 @@
 .hobby1 {
-    color: #e0e0e0;
+    color: #000000;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,11 +10,8 @@
     font-size: 18px;
     margin: 20px auto;
     width: 80%;
-}
+	font-family: 'Georgia', serif;
 
-.hobby1 h1, h2, h3 {
-    color: #ffcc00;
-    font-family: 'Georgia', serif;
 }
 
 
@@ -22,7 +19,13 @@
     border-collapse: collapse;
     width: 80%;
     margin: auto;
-    background-color: #2a2a2a;
+    background-color: #9ACBD0;
+}
+
+.hobby1 h2{
+	color: #006A71;
+	font-family: 'Georgia', serif;
+
 }
 
 .hobby1 .collapse, .collapse th, .collapse td {
@@ -35,7 +38,7 @@
 }
 
 .hobby1 .collapse th {
-    background-color: #444;
+    background-color: #48A6A7;
     color: white;
 }
 
@@ -43,7 +46,7 @@
 .hobby1 form {
     margin: 20px auto;
     width: 80%;
-    background-color: #010000;
+    background-color: #9ACBD0;
     padding: 20px;
     border-radius: 5px;
     text-align: left;

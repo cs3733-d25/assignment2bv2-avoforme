@@ -4,13 +4,14 @@ function Form1() {
             <form>
                 <label htmlFor="username">Minecraft Username:</label>
                 <input type="text" id="username" name="username" required></input>
-
+                <br></br>
                 <br></br>
 
                 <label htmlFor="favorite-block">Favorite Block:</label>
                 <input type="text" id="favorite-block" name="favorite-block"></input>
                 <br></br>
 
+                <br></br>
                 <label>Favorite Activities (Check all that apply):</label>
                 <br></br>
                 
@@ -21,6 +22,8 @@ function Form1() {
                 <label htmlFor="mining">Mining</label>
                 <input type="checkbox" id="exploring" name="activities" value="exploring"></input>
                 <label htmlFor="exploring">Exploring</label>
+                <br></br>
+                <br></br>
 
                 <label>Preferred Playstyle:</label>
                 <br></br>
@@ -36,6 +39,8 @@ function Form1() {
                 <label htmlFor="comments">Any Comments:</label>
                 <br></br>
                 <textarea id="comments" name="comments" rows={4} cols={40}></textarea>
+
+                <br></br>
                 <br></br>
 
                 <label htmlFor="biome">Favorite Biome:</label>
@@ -46,6 +51,7 @@ function Form1() {
                     <option value="taiga">Taiga</option>
                     <option value="ocean">Ocean</option>
                 </select>
+                <br></br>
                 <br></br>
 
                 <button type="submit">Submit</button>
