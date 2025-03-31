@@ -2,7 +2,6 @@ import hobbyLogo from '../assets/Pokémon_Trading_Card_Game_logo.png'
 import List2 from './List2.tsx'
 import Table2 from './Table2.tsx'
 import Form2 from './Form2.tsx'
-import "./Hobby2.css";
 
 function Hobby2() {
 

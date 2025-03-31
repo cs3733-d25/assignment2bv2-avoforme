@@ -1,4 +1,3 @@
-import "./Hobby2.css";
 
 function Form2() {
 

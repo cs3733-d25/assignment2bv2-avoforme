@@ -8,7 +8,6 @@ import f_munchlax from "../assets/cards/f_munchlax.jpg"
 import lf_munchlax from "../assets/cards/lf_munchlax.jpg"
 import f_qwilfish from "../assets/cards/f_qwilfish.jpg"
 import lf_qwilfish from "../assets/cards/lf_qwilfish.jpg"
-import "./Hobby2.css";
 
 function Table2() {
 	

@@ -1,7 +1,7 @@
 import List1 from "./list1";
 import Table1 from "./table1";
 import Form1 from "./form1";
-import "./hobby1.css";
+
 function Hobby1() { 
   return (
     <div className="hobby1">
@@ -10,7 +10,7 @@ function Hobby1() {
       </p>
 
       <div id="banner">
-        <img src="public/banner.jpg" width="640" alt="wpi image"/>
+        <img src="/banner.jpg" width="640" alt="wpi image"/>
       </div>
 
       <List1 />

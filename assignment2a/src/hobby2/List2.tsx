@@ -3,7 +3,6 @@ import jirachi from '../assets/profiles/Jirachi.png'
 import mudkip from '../assets/profiles/Mudkip.png'
 import munchlax from '../assets/profiles/Munchlax.png'
 import qwilfish from '../assets/profiles/Qwilfish.png'
-import "./Hobby2.css";
 
 function List2() {
 	return (
